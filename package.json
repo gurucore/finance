@@ -1,0 +1,85 @@
+{
+  "name": "gachchan-finance",
+  "version": "0.0.1",
+  "description": "Shared lib (work in node and browser) for common functionalities",
+  "releasenote": "Initial release, open source from xcapital repository",
+  "author": "lockevn",
+  "license": "GPL-3.0-only",
+  "keywords": [
+    "nodejs",
+    "browser",
+    "lib",
+    "utils",
+    "common",
+    "javascript",
+    "typescript",
+    "tested",
+    "shared-library"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gurucore/gachchan-finance.git"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "files": [
+    "dist/",
+    "src/",
+    "LICENSE",
+    "CHANGELOG.md",
+    "README.md"
+  ],
+  "type": "module",
+  "source": "src/index.ts",
+  "main": "./dist/gachchan-finance.umd.cjs",
+  "module": "./dist/gachchan-finance.es.mjs",
+  "exports": {
+    ".": {
+      "require": "./dist/gachchan-finance.umd.cjs",
+      "import": "./dist/gachchan-finance.es.mjs"
+    }
+  },
+  "types": "./dist/types/index.d.ts",
+  "scripts": {
+    "dev": "parcel watch",
+    "prebuild": "rimraf dist",
+    "lint": "eslint . --fix",
+    "check": "tsc --noEmit --skipLibCheck",
+    "build": "parcel build",
+    "test": "vitest",
+    "test:run": "vitest run",
+    "empty1": "- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - ",
+    "precommit": "npm run lint && npm run check",
+    "ci": "npm run check && npm run test:run",
+    "release": "npm run check && npm run build"
+  },
+  "dependencies": {
+    "gachchan": "latest",
+    "decimal.js": "^10.5.0",
+    "lodash": "^4.17.21"
+  },
+  "devDependencies": {
+    "@types/lodash": "^4.17.4",
+    "@parcel/bundler-library": "latest",
+    "@parcel/config-default": "latest",
+    "@parcel/packager-ts": "latest",
+    "@parcel/transformer-typescript-tsc": "latest",
+    "@parcel/transformer-typescript-types": "latest",
+    "@types/node": "latest",
+    "eslint": "latest",
+    "parcel": "latest",
+    "rimraf": "latest",
+    "typescript": "latest",
+    "vitest": "latest"
+  },
+  "peerDependencies": {},
+  "husky": {
+    "hooks": {
+      "pre-commit": "npm run precommit"
+    }
+  },
+  "stackblitz": {
+    "startCommand": "pnpm test:run"
+  }
+}
