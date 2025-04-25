@@ -10,15 +10,15 @@ export default {
   input: 'src/index.ts',
   output: [
     // {
-    //   file: 'gachchan-finance.umd.js',
+    //   file: 'gurucore-finance.umd.js',
     //   format: 'umd'
     // },
     // {
-    //   file: 'gachchan-finance.es.js',
+    //   file: 'gurucore-finance.es.js',
     //   format: 'es'
     // },
     {
-      file: 'gachchan-finance.js',
+      file: 'gurucore-finance.js',
       format: 'cjs',
     },
   ],
@@ -36,8 +36,8 @@ export default {
 //     target: 'esnext',
 //     lib: {
 //       entry: path.resolve(__dirname, 'src/index.ts'),
-//       name: 'gachchan-finance',
-//       fileName: (format) => `gachchan-finance.${format}.js`
+//       name: 'gurucore-finance',
+//       fileName: (format) => `gurucore-finance.${format}.js`
 //     },
 //     rollupOptions: {
 //       // https://rollupjs.org/guide/en/#big-list-of-options

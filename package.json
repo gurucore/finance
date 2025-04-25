@@ -1,6 +1,6 @@
 {
-  "name": "gachchan-finance",
-  "version": "0.0.1",
+  "name": "@gurucore/finance",
+  "version": "0.0.2",
   "description": "Shared lib (work in node and browser) for common functionalities",
   "releasenote": "Initial release, open source from xcapital repository",
   "author": "lockevn",
@@ -18,7 +18,7 @@
   ],
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/gurucore/gachchan-finance.git"
+    "url": "git+https://github.com/gurucore/finance.git"
   },
   "publishConfig": {
     "access": "public"
@@ -32,12 +32,12 @@
   ],
   "type": "module",
   "source": "src/index.ts",
-  "main": "./dist/gachchan-finance.umd.cjs",
-  "module": "./dist/gachchan-finance.es.mjs",
+  "main": "./dist/gurucore-finance.umd.cjs",
+  "module": "./dist/gurucore-finance.es.mjs",
   "exports": {
     ".": {
-      "require": "./dist/gachchan-finance.umd.cjs",
-      "import": "./dist/gachchan-finance.es.mjs"
+      "import": "./dist/gurucore-finance.es.mjs",
+      "require": "./dist/gurucore-finance.umd.cjs"
     }
   },
   "types": "./dist/types/index.d.ts",
