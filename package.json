@@ -1,6 +1,6 @@
 {
   "name": "@gurucore/finance",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "description": "Shared models and libs (work in node and browser) for common functionalities",
   "releasenote": "Initial release, open source from xcapital repository",
   "author": "lockevn",

@@ -523,3 +523,45 @@ export const CWIssuersInfo = {
   },
 }
 CWIssuersInfo.KISVN = CWIssuersInfo.KIS
+
+
+/** array of all predefined games */
+export const CWGameStyleList = [
+  {
+    Key: "__PERFECT",
+    DisplayText: "",
+    Tip: "Bestbuy",
+  },
+  {
+    Key: "__GOOD",
+    DisplayText: "",
+    Tip: "Tiềm năng, nhưng chưa lên được level PERFECT",
+  },
+  {
+    Key: "__POTENTIAL",
+    DisplayText: "Betting (risk+)",
+    Tip: "Điểm chất lượng khá, cấp số nhân EG cao, High risk / high return",
+    NewSequence: true,
+  },
+  {
+    Key: "__NEWBORN",
+    DisplayText: "NewBorn (risk++)",
+    Tip: "Mới phát hành, mới niêm yết giao dịch trên sàn",
+  },
+  {
+    Key: "__MATURITY",
+    DisplayText: "Maturity (risk+)",
+    Tip: "Điểm khá cao và gần sát đáo hạn. Dành cho ai bet với vol lớn mà không thể xả được có lời (phải ép nhà cái mua lại khi đáo hạn)",
+  },
+  {
+    Key: "__HOLD",
+    DisplayText: "",
+    Tip: "Điểm khá cao, có khối lượng giao dịch đột biến đáng chú ý trong ngày, có thể trade hoặc hold dài hạn hơn",
+    NewSequence: true,
+  },
+  {
+    Key: "__WOLFDANCE",
+    DisplayText: "Wolf",
+    Tip: "Biến động lớn của NN (có thể có cả yếu tố của nhà cái), tiền dồn vào/ra với tỷ trọng lớn trong ngày (báo hiệu sắp bơm hoặc xả mạnh).",
+  },
+]
