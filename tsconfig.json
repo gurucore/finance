@@ -37,7 +37,7 @@
     // "noImplicitAny": false,
     // "useDefineForClassFields": true,
     // "strictBindCallApply": false,
-    // "forceConsistentCasingInFileNames": false,
+    "forceConsistentCasingInFileNames": false,
     // "noFallthroughCasesInSwitch": false
 
     // Types should go into this directory.

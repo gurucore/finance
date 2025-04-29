@@ -84,5 +84,6 @@
   },
   "stackblitz": {
     "startCommand": "npm run test:run"
-  }
+  },
+  "sideEffects": false
 }
