@@ -1,8 +1,8 @@
 {
   "name": "@gurucore/finance",
-  "version": "0.0.5",
-  "description": "Shared models and libs (work in node and browser) for common functionalities",
-  "releasenote": "Initial release, open source from xcapital repository",
+  "version": "0.0.7",
+  "description": "Shared (namespaced) models and libs (work in node and browser) for common functionalities",
+  "releasenote": "Introduce (namespaced) models. Initial release, open source from xcapital repository",
   "author": "lockevn",
   "license": "GPL-3.0-only",
   "keywords": [
