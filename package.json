@@ -57,13 +57,9 @@
     "ci": "npm run check && npm run test:run",
     "release": "npm run check && npm run build"
   },
-  "dependencies": {
-    "gachchan": "latest",
-    "decimal.js": "^10.5.0",
-    "lodash": "^4.17.21"
-  },
+  "dependencies": {},
   "devDependencies": {
-    "@types/lodash": "^4.17.4",
+    "@types/lodash": "latest",
     "@parcel/bundler-library": "latest",
     "@parcel/config-default": "latest",
     "@parcel/packager-ts": "latest",
@@ -76,13 +72,17 @@
     "typescript": "latest",
     "vitest": "latest"
   },
-  "peerDependencies": {},
+  "peerDependencies": {
+    "gachchan": "8.1.0",
+    "decimal.js": "^10.5.0",
+    "lodash": "^4.17.21"
+  },
   "husky": {
     "hooks": {
       "pre-commit": "npm run precommit"
     }
   },
   "stackblitz": {
-    "startCommand": "pnpm test:run"
+    "startCommand": "npm run test:run"
   }
 }

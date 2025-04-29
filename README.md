@@ -1,4 +1,4 @@
-# gurucore-finance: common financial funcs for both Serverside and Clientside
+# @gurucore/finance: common financial funcs for both Serverside and Clientside
 
 ## Install
 
@@ -7,7 +7,6 @@ run `npm i @gurucore/finance`
 ## Notable Dependencies
 
 - gachchan
-- nanoid
 - Fully TypeScript
 - Use Parcel to build
 
@@ -25,7 +24,7 @@ https://github.com/sponsors/lockevn
 # To publish/release
 
 - change `package.json` version string
-- (Optional) run in local those commands `pnpm run ci` and `pnpm release` to build the output package (to test)
+- (Optional) run in local those commands `npm run ci` and `npm run release` to build the output package (to test)
 - Create git tag and publish the git tag
 
 [![npm version](https://badgen.net/npm/v/@gurucore/finance)](https://npm.im/@gurucore/finance) [![npm downloads](https://badgen.net/npm/dt/@gurucore/finance)](https://npm.im/@gurucore/finance)
@@ -56,6 +55,5 @@ This lib `@gurucore/finance` use `_intersection from 'lodash/intersection'` to i
 ### TECH NOTE: build with Parcel
 
 - Parcel to build https://dev.to/ihaback/create-your-own-typescript-library-with-parceljs-3dh7
-- Package manager [pnpm](https://pnpm.js.org/)
 - Release with [semantic-release](https://npm.im/semantic-release)
 - Test with https://vitest.dev
