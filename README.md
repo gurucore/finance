@@ -1,4 +1,4 @@
-# @gurucore/finance: common financial funcs for both Serverside and Clientside
+# @gurucore/finance: common (public) financial funcs for both Serverside and Clientside
 
 ## Install
 
