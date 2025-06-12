@@ -1,6 +1,6 @@
 {
   "name": "@gurucore/finance",
-  "version": "0.0.9",
+  "version": "0.0.10",
   "description": "Shared (namespaced) models and libs (work in node and browser) for common functionalities",
   "releasenote": "Introduce (namespaced) models. Initial release, open source from xcapital repository",
   "author": "lockevn",
@@ -72,7 +72,7 @@
     "vitest": "latest"
   },
   "peerDependencies": {
-    "gachchan": "^8.1.0",
+    "gachchan": "^9.0.0",
     "decimal.js": "^10.5.0",
     "lodash": "^4.17.21"
   },
