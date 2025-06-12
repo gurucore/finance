@@ -1,6 +1,6 @@
 {
   "name": "@gurucore/finance",
-  "version": "0.0.8",
+  "version": "0.0.9",
   "description": "Shared (namespaced) models and libs (work in node and browser) for common functionalities",
   "releasenote": "Introduce (namespaced) models. Initial release, open source from xcapital repository",
   "author": "lockevn",
@@ -33,7 +33,6 @@
     "CHANGELOG.md",
     "README.md"
   ],
-  "type": "module",
   "source": "src/index.ts",
   "main": "./dist/gurucore-finance.umd.cjs",
   "module": "./dist/gurucore-finance.es.mjs",
